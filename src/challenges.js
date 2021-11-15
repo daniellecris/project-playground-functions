@@ -16,11 +16,12 @@ function calcArea(base, heigth) {
 }
 
 // Desafio 3
-function splitSentence(stringRecebida) {
-  // seu código aqui
-  let resultado = stringRecebida.split(" ");
-  return resultado;
-}
+// function splitSentence(stringRecebida) {
+//   // seu código aqui
+//   //consultei o método split no https://www.devmedia.com.br/javascript-split-dividindo-separando-strings/
+//   let resultado = stringRecebida.split(" ");
+//   return resultado;
+// }
 
 // Desafio 4
 function concatName() {
