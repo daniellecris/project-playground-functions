@@ -1,10 +1,10 @@
 // Desafio 1
 function compareTrue(bool_1, bool_2) {
   // seu código aqui
-  if ((bool_1 === true) && (bool_2 === true)){
-    return true
-  } else{
-    return false
+  if ((bool_1 === true) && (bool_2 === true)) {
+    return true;
+  } else {
+    return false;
   }
 }
 
@@ -16,8 +16,10 @@ function calcArea(base, heigth) {
 }
 
 // Desafio 3
-function splitSentence() {
+function splitSentence(stringRecebida) {
   // seu código aqui
+  let resultado = stringRecebida.split(" ");
+  return resultado;
 }
 
 // Desafio 4
