@@ -23,14 +23,14 @@ function splitSentence(stringRecebida) {
 }
 
 // Desafio 4
-// function concatName(stringArray) {
-//   // seu código aqui
-//   let first = stringArray[0];
-//   let last = (stringArray.length -1)
-//   let concatenado.push = last + first;
+function concatName(stringArray) {
+  // seu código aqui
+  let first = stringArray[0];
+  let last = (stringArray.length -1)
+  let concatenado.push = last + first;
 
-//   return concatenado
-// }
+  return concatenado
+}
 
 // Desafio 5
 // function footballPoints(wins, ties) {
