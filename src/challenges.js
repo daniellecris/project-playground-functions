@@ -27,7 +27,7 @@ function concatName(stringArray) {
   // seu código aqui
   let first = stringArray[0];
   let last = (stringArray.length -1)
-  let concatenado.push = last + first;
+  let concatenado = last + first;
 
   return concatenado
 }
