@@ -46,23 +46,49 @@ function highestCount(numRepete) {
   let contMaior = 0;
   let numMaior = Math.max.apply(null,numRepete);
 
-  for (index = 0; index < numRepete.length; index++) { 
+  for (let index = 0; index < numRepete.length; index += 1) { 
     if (numMaior === numRepete[index]) {
-      contMaior = contMaior + 1;
+      contMaior += 1;
     }
   }
   return contMaior;
 }
 
 // Desafio 7
-function catAndMouse() {
-  // seu código aqui
-}
+function catAndMouse(mouse, cat1, cat2) {
+  //seu código aqui
+  let resCat1 = Math.abs(cat1 - mouse);
+  let resCat2 = Math.abs(cat2 - mouse);
+
+  if ( resCat1 === resCat2 ) {
+    return ("os gatos trombam e o rato foge");
+  }
+  
+  if (resCat1 < resCat2) {
+    return "cat1";
+  }
+
+  return ("cat2")
+} 
 
 // Desafio 8
-function fizzBuzz() {
+//function fizzBuzz(array) {
   // seu código aqui
-}
+//   let arrayFizzBuzz = [ ];
+
+//   for (let index = 0; index < array.length; index++) {
+//     if (array[index] % 3) {
+//       arrayFizzBuzz.push = "fizz";
+//     } else if (array[index] % 5) {
+//       arrayFizzBuzz.push = "buzz";
+//     } else if ((array[index] % 3) && (array[index] % 5)) {
+//       arrayFizzBuzz.push = "fizzBuzz";
+//     } else {
+//       arrayFizzBuzz.push = "bug!";
+//     }
+//   }
+//  return arrayFizzBuzz;
+// }
 
 // Desafio 9
 function encode() {
