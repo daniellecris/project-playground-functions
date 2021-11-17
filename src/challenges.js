@@ -57,6 +57,7 @@ function highestCount(numRepete) {
 // Desafio 7
 function catAndMouse(mouse, cat1, cat2) {
   //seu código aqui
+  //pesquisei o Math.abs no https://www.devmedia.com.br/matematica-em-javascript-o-objeto-math/27439
   let resCat1 = Math.abs(cat1 - mouse);
   let resCat2 = Math.abs(cat2 - mouse);
 
