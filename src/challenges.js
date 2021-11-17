@@ -44,7 +44,7 @@ function highestCount(numRepete) {
   // seu código aqui
   //consultei o Math.max no https://pt.stackoverflow.com/
   let contMaior = 0;
-  let numMaior = Math.max.apply(null,numRepete);
+  let numMaior = Math.max.apply(null, numRepete);
 
   for (let index = 0; index < numRepete.length; index += 1) { 
     if (numMaior === numRepete[index]) {
@@ -61,19 +61,18 @@ function catAndMouse(mouse, cat1, cat2) {
   let resCat1 = Math.abs(cat1 - mouse);
   let resCat2 = Math.abs(cat2 - mouse);
 
-  if ( resCat1 === resCat2 ) {
-    return ("os gatos trombam e o rato foge");
+  if (resCat1 === resCat2) {
+    return ('os gatos trombam e o rato foge');
   }
   
   if (resCat1 < resCat2) {
-    return "cat1";
+    return 'cat1';
   }
-
-  return ("cat2")
+  return ('cat2');
 } 
 
 // Desafio 8
-//function fizzBuzz(array) {
+function fizzBuzz(array) {
   // seu código aqui
 //   let arrayFizzBuzz = [ ];
 
@@ -89,7 +88,7 @@ function catAndMouse(mouse, cat1, cat2) {
 //     }
 //   }
 //  return arrayFizzBuzz;
-// }
+}
 
 // Desafio 9
 function encode() {
