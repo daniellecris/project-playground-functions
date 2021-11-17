@@ -26,33 +26,33 @@ function splitSentence(stringRecebida) {
 function concatName(stringArray) {
   // seu código aqui
   let first = stringArray[0];
-  let last = (stringArray.length -1)
-  let concatenado = last + first;
+  let last = (stringArray.length -1);
+  let concatenado = (last + ", " + first);
 
   return concatenado
 }
 
 // Desafio 5
-function footballPoints(wins, ties) {
-  // seu código aqui
-  let resultado = ((3 * wins) + ties);
-  return resultado;
-}
+// function footballPoints(wins, ties) {
+//   // seu código aqui
+//   let resultado = ((3 * wins) + ties);
+//   return resultado;
+// }
 
 // Desafio 6
-function highestCount(numRepete) {
-  // seu código aqui
-  //consultei o Math.max no https://pt.stackoverflow.com/
-  let contMaior = 0;
-  let numMaior = Math.max.apply(null,numRepete);
+// function highestCount(numRepete) {
+//   // seu código aqui
+//   //consultei o Math.max no https://pt.stackoverflow.com/
+//   let contMaior = 0;
+//   let numMaior = Math.max.apply(null,numRepete);
 
-  for (index = 0, index <= numRepete.length; index++) { 
-    if (numMaior === numRepete[index]) {
-      contMaior = contMaior + 1;
-    }
-  }
-  return contMaior;
-}
+//   for (index = 0, index <= numRepete.length; index++) { 
+//     if (numMaior === numRepete[index]) {
+//       contMaior = contMaior + 1;
+//     }
+//   }
+//   return contMaior;
+// }
 
 // Desafio 7
 function catAndMouse() {
