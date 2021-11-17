@@ -18,7 +18,7 @@ function calcArea(base, heigth) {
 function splitSentence(stringRecebida) {
   // seu código aqui
   //consultei o método split no https://www.devmedia.com.br/javascript-split-dividindo-separando-strings/
-  let resultado = stringRecebida.split(" ");
+  let resultado = stringRecebida.split(' ');
   return resultado;
 }
 
@@ -26,8 +26,8 @@ function splitSentence(stringRecebida) {
 function concatName(stringArray) {
   // seu código aqui
   let first = stringArray[0];
-  let last = (stringArray.length -1);
-  let concatenado = (last + ", " + first);
+  let last = (stringArray[stringArray.length-1]);
+  let concatenado = (last + ', ' + first);
 
   return concatenado
 }
@@ -46,7 +46,7 @@ function highestCount(numRepete) {
   let contMaior = 0;
   let numMaior = Math.max.apply(null,numRepete);
 
-  for (index = 0, index < numRepete.length; index++) { 
+  for (index = 0; index < numRepete.length; index++) { 
     if (numMaior === numRepete[index]) {
       contMaior = contMaior + 1;
     }
