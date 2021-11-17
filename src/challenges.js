@@ -39,20 +39,20 @@ function footballPoints(wins, ties) {
   return resultado;
 }
 
-// Desafio 6
-// function highestCount(numRepete) {
-//   // seu código aqui
-//   //consultei o Math.max no https://pt.stackoverflow.com/
-//   let contMaior = 0;
-//   let numMaior = Math.max.apply(null,numRepete);
+//Desafio 6
+function highestCount(numRepete) {
+  // seu código aqui
+  //consultei o Math.max no https://pt.stackoverflow.com/
+  let contMaior = 0;
+  let numMaior = Math.max.apply(null,numRepete);
 
-//   for (index = 0, index <= numRepete.length; index++) { 
-//     if (numMaior === numRepete[index]) {
-//       contMaior = contMaior + 1;
-//     }
-//   }
-//   return contMaior;
-// }
+  for (index = 0, index < numRepete.length; index++) { 
+    if (numMaior === numRepete[index]) {
+      contMaior = contMaior + 1;
+    }
+  }
+  return contMaior;
+}
 
 // Desafio 7
 function catAndMouse() {
