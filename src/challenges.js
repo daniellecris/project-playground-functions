@@ -89,7 +89,6 @@ function fizzBuzz(array) {
   }
  return arrayFizzBuzz;
 }
-console.log(fizzBuzz([3, 15, 7, 9, 45]))
 
 // Desafio 9
 function encode(string) {
