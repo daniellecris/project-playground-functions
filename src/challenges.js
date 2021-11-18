@@ -74,17 +74,18 @@ function catAndMouse(mouse, cat1, cat2) {
 // Desafio 8
 function fizzBuzz(array) {
   // seu código aqui
+  //Thalles explicou e indicou o https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Logical_NOT
   let arrayFizzBuzz = [];
 
-  for (let index = 0; index < array.length; index++) {
+  for (let index = 0; index < array.length; index += 1) {
     if (!(array[index] % 3) && !(array[index] % 5)) {
-      arrayFizzBuzz.push("fizzBuzz");
+      arrayFizzBuzz.push('fizzBuzz');
     } else if (!(array[index] % 3)) {
-      arrayFizzBuzz.push("fizz");
+      arrayFizzBuzz.push('fizz');
     } else if (!(array[index] % 5)) {
-      arrayFizzBuzz.push("buzz");
+      arrayFizzBuzz.push('buzz');
     } else {
-      arrayFizzBuzz.push("bug!");
+      arrayFizzBuzz.push('bug!');
     }
   }
  return arrayFizzBuzz;
@@ -93,12 +94,26 @@ function fizzBuzz(array) {
 // Desafio 9
 function encode(string) {
   // seu código aqui
-  //replace
+  //consultei o método replace no https://www.devmedia.com.br/javascript-replace-substituindo-valores-em-uma-string/39176
+  string = string.replace(/a/gi, '1');
+  string = string.replace(/e/gi, '2');
+  string = string.replace(/i/gi, '3');
+  string = string.replace(/o/gi, '4');
+  string = string.replace(/u/gi, '5');
+
+  return string;
 }
 
-function decode() {
+function decode(string) {
   // seu código aqui
-  //replace
+  //consultei o método replace no https://www.devmedia.com.br/javascript-replace-substituindo-valores-em-uma-string/39176
+  string = string.replace(/1/gi, 'a');
+  string = string.replace(/2/gi, 'e');
+  string = string.replace(/3/gi, 'i');
+  string = string.replace(/4/gi, 'o');
+  string = string.replace(/5/gi, 'u');
+
+  return string;
 }
 
 module.exports = {
